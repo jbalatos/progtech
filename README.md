@@ -1,6 +1,7 @@
 # Αρχεία ανά Σειρά Ασκήσεων ProgTech
 
 > Raw πηγαίος κώδικας αρχείου από το repository :
+> 
 > https://raw.githubusercontent.com/jbalatos/progtech/master/(filename)
 
 ## Σειρά 1
