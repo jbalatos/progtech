@@ -1,7 +1,7 @@
 # Αρχεία ανά Σειρά Ασκήσεων ProgTech
 
 > Raw πηγαίος κώδικας αρχείου από το repository :
-> https://raw.githubusercontent.com/jbalatos/progtech/master/<filename>
+> https://raw.githubusercontent.com/jbalatos/progtech/master/(filename)
 
 ## Σειρά 1
 - babyratio : Αντιγράφετε τα babyratio.hpp,  babyratiotest.cpp,  κατασκευάζετε & υποβάλλετε το babyratio.cpp
