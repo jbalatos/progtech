@@ -1,6 +1,6 @@
 #ifndef CONTEST
 #define SPECKER_V3
-#include "specker_v2.cpp"
+#include "specker2n.cpp"
 #endif
 
 class Game {/*{{{*/

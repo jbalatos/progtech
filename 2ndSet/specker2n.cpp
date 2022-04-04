@@ -5,7 +5,7 @@
 
 #ifndef CONTEST
 #define SPECKER_V2
-#include "specker_v1.cpp"
+#include "specker1n.cpp"
 #endif
 
 class Player {/*{{{*/
