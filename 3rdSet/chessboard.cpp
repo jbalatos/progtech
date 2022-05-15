@@ -9,7 +9,7 @@ class ChessBoardArray {
 		class Row {
 			public:
 				Row(ChessBoardArray &a, int i);
-				int & operator [] (int i) const;
+				int & operator [] (int i);
 		};
 		class ConstRow {
 			public:
@@ -21,10 +21,10 @@ class ChessBoardArray {
 		ChessBoardArray(const ChessBoardArray &a);
 		~ChessBoardArray();
 		ChessBoardArray & operator = (const ChessBoardArray &a) noexcept;
-		int & select(int i, int j) noexcept;
-		int select(int i, int j) const noexcept;
-		const Row operator [] (int i) noexcept;
-		const ConstRow operator [] (int i) const noexcept;
+		int & select(int i, int j);
+		int select(int i, int j) const;
+		const Row operator [] (int i);
+		const ConstRow operator [] (int i) const;
 
 		friend ostream & operator << (ostream &out, const ChessBoardArray &a) noexcept;
 
