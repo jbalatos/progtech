@@ -13,7 +13,7 @@ class lexicon {
 		int depth (const string &s) const noexcept;
 		void replace (const string &s1, const string &s2) noexcept;
 
-		firend ostream& operator << (ostream &out, const lexicon &l) noexcept;
+		friend ostream& operator << (ostream &out, const lexicon &l) noexcept;
 };
 
 #ifndef CONTEST
