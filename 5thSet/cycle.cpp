@@ -13,6 +13,7 @@ class Graph {
 		bool cycle (vector<int>& path) const noexcept;
 };
 
+#ifndef CONTEST
 int main() {
 	int V, E;
 	cin >> V >> E;
@@ -31,5 +32,5 @@ int main() {
 	}
 	return 0;
 }
-
+#endif //CONTEST
 
